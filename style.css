@@ -1,0 +1,108 @@
+.glow-btn {
+    background: linear-gradient(45deg, #6a5af9, #d66efd);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 20px rgba(106, 90, 249, 0.5);
+  }
+  
+  .dark-btn {
+    background: linear-gradient(45deg, #000000, #000000);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+.shemirigda{
+    background-color: #d66efd;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    min-height: 100vh;
+  }
+
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+  }
+
+  .glow-btn {
+    background: #6a5af9;
+    color: white;
+  }
+
+  .glass-btn {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+
+  .neon-btn {
+    background: #000;
+    color: #00ffe0;
+    border: 2px solid #00ffe0;
+  }
+
+  .slide-btn {
+    background: #28a745;
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 600px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    button {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
